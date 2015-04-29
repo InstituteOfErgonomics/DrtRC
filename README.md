@@ -3,7 +3,7 @@ Android app to remote control an Arduino Detection Response Task (DRT) via USB O
 
 ## General
 More information, videos and link to the compiled app (Play store) 
-http://www.lfe.mw.tum.de/drtrc
+http://www.lfe.mw.tum.de/drt-rc
 
 
 
