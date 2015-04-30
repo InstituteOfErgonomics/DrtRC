@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/controlScrollView" >
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/controlRelativeLayout"
+        android:nestedScrollingEnabled="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Experiment Control"
+            android:id="@+id/controlTextView1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:background="#ffdcffef"
+            android:padding="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:id="@+id/controlStartButton"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/controlTextView1"
+            android:layout_margin="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:id="@+id/controlStopButton"
+            android:layout_marginLeft="21dp"
+            android:layout_alignTop="@+id/controlStartButton"
+            android:layout_toRightOf="@+id/controlStartButton" />
+
+        <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/controlNumberPicker"
+            android:layout_below="@+id/controlStartButton"
+            android:layout_alignLeft="@+id/controlStartButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt; send marker"
+            android:id="@+id/controlMarkerButton"
+            android:layout_alignTop="@+id/controlNumberPicker"
+            android:layout_toRightOf="@+id/controlNumberPicker"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Control/settings when no experiment is in progress"
+            android:id="@+id/controlTextView2"
+            android:layout_below="@+id/controlNumberPicker"
+            android:layout_alignParentLeft="true"
+            android:background="#ffdcffef"
+            android:padding="10dp"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="!"
+            android:id="@+id/controlCommandEditText"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/controlMeasurementButton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:minWidth="40dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt; send command"
+            android:id="@+id/controlSendCommandButton"
+            android:layout_alignTop="@+id/controlCommandEditText"
+            android:layout_toRightOf="@+id/controlCommandEditText"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch stimulus on/off (testing)"
+            android:id="@+id/controlTestButton"
+            android:layout_below="@+id/controlTextView2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="BEMF tactor test on"
+            android:id="@+id/controlMeasurementButton"
+            android:layout_below="@+id/controlTestButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/controlTestButton"
+            android:minWidth="300dp"
+            android:layout_marginLeft="20dp" />
+
+    </RelativeLayout>
+</ScrollView>

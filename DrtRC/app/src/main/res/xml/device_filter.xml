@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ftdi VID="0x0403" PID="0x6001" /-->
+    <!--usb-device vendor-id="1027" product-id="24577" /-->
+    <!--arduino VID="0x2341" PID="0x0001" /-->
+    <usb-device vendor-id="9025" />
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:id="@+id/itemIdTextView"
+        android:minWidth="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:id="@+id/itemNameTextView"
+        android:layout_below="@+id/itemIdTextView"
+        android:layout_alignLeft="@+id/itemIdTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="desc"
+        android:id="@+id/itemDescTextView"
+        android:layout_below="@+id/itemNameTextView"
+        android:layout_alignLeft="@+id/itemNameTextView" />
+
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="toast"
+        android:id="@+id/itemToastCheckBox"
+        android:layout_below="@+id/itemDescTextView"
+        android:layout_alignLeft="@+id/itemDescTextView" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="myView"
+        android:id="@+id/itemMyViewCheckBox"
+        android:layout_alignTop="@+id/itemToastCheckBox"
+        android:layout_toRightOf="@+id/itemToastCheckBox"
+        android:layout_marginLeft="20dp" />
+
+
+</RelativeLayout>

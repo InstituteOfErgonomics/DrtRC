@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="my configured result view"
+        android:id="@+id/myViewDescTextView"
+        android:background="#ffdcffef" />
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/myViewListView"
+            android:dividerHeight="1dp"
+            android:divider="#ff000000"
+            android:fastScrollAlwaysVisible="false"
+            android:fastScrollEnabled="false" />
+
+</LinearLayout>
