@@ -23,3 +23,6 @@ This library is licensed under LGPL Version 2.1. Please see LICENSE.txt for the 
 Copyright 2011-2012, Google Inc. All Rights Reserved.
 
 Portions of this library are based on libftdi (http://www.intra2net.com/en/developer/libftdi). Please see FtdiSerialDriver.java for more information.
+
+---------
+[![DOI](https://zenodo.org/badge/12944/InstituteOfErgonomics/DrtRC.svg)](http://dx.doi.org/10.5281/zenodo.17610)
